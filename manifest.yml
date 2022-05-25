@@ -1,0 +1,35 @@
+repos:
+  - url: git@gitlab.com:gotecq-mobile/flutter-lib/form
+    dest: gotecq-client/libs/form
+  - url: git@gitlab.com:gotecq-mobile/flutter-lib/gotecq_widget
+    dest: gotecq-client/libs/widgets
+  - url: git@gitlab.com:gotecq-mobile/flutter-lib/utils
+    dest: gotecq-client/libs/utils
+  - url: git@gitlab.com:gotecq-mobile/flutter-lib/app_architecture
+    dest: gotecq-client/libs/app-architecture
+  - url: git@gitlab.com:gotecq-mobile/flutter-lib/core
+    dest: gotecq-client/libs/core
+  - url: git@gitlab.com:gotecq-mobile/flutter-lib/filter_panel
+    dest: gotecq-client/libs/filter-sort-builder
+  - url: git@gitlab.com:gotecq-mobile/flutter-lib/infinite_list
+    dest: gotecq-client/libs/infinite-list
+  # - url: git@gitlab.com:gotecq-mobile/gotecq-modules/auth
+  #   dest: gotecq-client/modules/auth
+  # - url: git@gitlab.com:gotecq-mobile/gotecq-modules/items
+  #   dest: gotecq-client/modules/items
+  # - url: git@gitlab.com:gotecq-mobile/gotecq-modules/member-profile
+  #   dest: gotecq-client/modules/member-profile
+  # - url: git@gitlab.com:gotecq-mobile/gotecq-modules/notifications
+  #   dest: gotecq-client/modules/notifications
+  # - url: git@gitlab.com:gotecq-mobile/gotecq-modules/scheduling
+  #   dest: gotecq-client/modules/scheduling
+  # - url: git@gitlab.com:gotecq-mobile/gotecq-modules/support
+  #   dest: gotecq-client/modules/support
+  # - url: git@gitlab.com:gotecq-mobile/gotecq-modules/survey
+  #   dest: gotecq-client/modules/survey
+  # - url: git@gitlab.com:gotecq-mobile/gotecq-modules/transport
+  #   dest: gotecq-client/modules/transport
+  # - url: git@gitlab.com:gotecq-mobile/gotecq-apps/member-engagement-provider
+  #   dest: gotecq-client/apps/member-engagement-provider
+  # - url: git@gitlab.com:gotecq-mobile/gotecq-apps/member-engagement-member
+  #   dest: gotecq-client/apps/member-engagement-member
