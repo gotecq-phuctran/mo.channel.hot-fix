@@ -1,68 +1,72 @@
 repos:
-  - url: git@gitlab.com:gotecq-mobile/flutter-lib/form
+  - url: git@gitlab.com:gotecq-mobile/mobile-consumer
     branch: main
-    dest: gotecq-client/libs/form
+    dest: mobile-consumer
 
-  - url: git@gitlab.com:gotecq-mobile/flutter-lib/gotecq_widget
+  - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-form
     branch: main
-    dest: gotecq-client/libs/widgets
+    dest: mobile-consumer/libs/gotecq_form
 
-  - url: git@gitlab.com:gotecq-mobile/flutter-lib/utils
+  - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-widgets
     branch: main
-    dest: gotecq-client/libs/utils
+    dest: mobile-consumer/libs/gotecq_widgets
 
-  - url: git@gitlab.com:gotecq-mobile/flutter-lib/app_architecture
+  - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-utils
     branch: main
-    dest: gotecq-client/libs/app-architecture
+    dest: mobile-consumer/libs/gotecq_utils
 
-  - url: git@gitlab.com:gotecq-mobile/flutter-lib/core
+  - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-foundation
     branch: main
-    dest: gotecq-client/libs/core
+    dest: mobile-consumer/libs/gotecq_foundation
 
-  - url: git@gitlab.com:gotecq-mobile/flutter-lib/filter_panel
+  - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-filter-n-sort
     branch: main
-    dest: gotecq-client/libs/filter-sort-builder
+    dest: mobile-consumer/libs/gotecq_filter_n_sort
 
-  - url: git@gitlab.com:gotecq-mobile/flutter-lib/infinite_list
+  - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-infinite-list
     branch: master
-    dest: gotecq-client/libs/infinite-list
+    dest: mobile-consumer/libs/gotecq_infinite_list
 
-  # - url: git@gitlab.com:gotecq-mobile/gotecq-modules/auth
-  #   branch: main
-  #   dest: gotecq-client/modules/auth
+  - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-network
+    branch: main
+    dest: mobile-consumer/libs/gotecq_network
 
-  # - url: git@gitlab.com:gotecq-mobile/gotecq-modules/items
-  #   branch: main
-  #   dest: gotecq-client/modules/items
+  - url: git@gitlab.com:gotecq-mobile/gotecq-modules/module-auth
+    branch: main
+    dest: mobile-consumer/modules/module_auth
 
-  # - url: git@gitlab.com:gotecq-mobile/gotecq-modules/member-profile
-  #   branch: main
-  #   dest: gotecq-client/modules/member-profile
+  - url: git@gitlab.com:gotecq-mobile/gotecq-modules/module-items
+    branch: main
+    dest: mobile-consumer/modules/module_items
 
-  # - url: git@gitlab.com:gotecq-mobile/gotecq-modules/notifications
-  #   branch: main
-  #   dest: gotecq-client/modules/notifications
+  - url: git@gitlab.com:gotecq-mobile/gotecq-modules/module-member-profile
+    branch: main
+    dest: mobile-consumer/modules/module_member_profile
 
-  # - url: git@gitlab.com:gotecq-mobile/gotecq-modules/scheduling
-  #   branch: main
-  #   dest: gotecq-client/modules/scheduling
+  - url: git@gitlab.com:gotecq-mobile/gotecq-modules/module-notifications
+    branch: main
+    dest: mobile-consumer/modules/module_notifications
 
-  # - url: git@gitlab.com:gotecq-mobile/gotecq-modules/support
-  #   branch: main
-  #   dest: gotecq-client/modules/support
+  - url: git@gitlab.com:gotecq-mobile/gotecq-modules/module-scheduling
+    branch: main
+    dest: mobile-consumer/modules/module_scheduling
 
-  # - url: git@gitlab.com:gotecq-mobile/gotecq-modules/survey
-  #   branch: main
-  #   dest: gotecq-client/modules/survey
+  - url: git@gitlab.com:gotecq-mobile/gotecq-modules/module-support
+    branch: main
+    dest: mobile-consumer/modules/module_support
 
-  # - url: git@gitlab.com:gotecq-mobile/gotecq-modules/transport
-  #   branch: main
-  #   dest: gotecq-client/modules/transport
+  - url: git@gitlab.com:gotecq-mobile/gotecq-modules/module-survey
+    branch: main
+    dest: mobile-consumer/modules/module_survey
 
-  # - url: git@gitlab.com:gotecq-mobile/gotecq-apps/member-engagement-provider
-  #   branch: main
-  #   dest: gotecq-client/apps/member-engagement-provider
+  - url: git@gitlab.com:gotecq-mobile/gotecq-modules/module-transport
+    branch: main
+    dest: mobile-consumer/modules/module_transport
 
-  # - url: git@gitlab.com:gotecq-mobile/gotecq-apps/member-engagement-member
-  #   branch: main
-  #   dest: gotecq-client/apps/member-engagement-member
+  - url: git@gitlab.com:gotecq-mobile/gotecq-apps/member-engagement-provider
+    branch: main
+    dest: mobile-consumer/apps/member_engagement_provider
+
+  - url: git@gitlab.com:gotecq-mobile/gotecq-apps/member-engagement-member
+    branch: main
+    dest: mobile-consumer/apps/member_engagement_member
