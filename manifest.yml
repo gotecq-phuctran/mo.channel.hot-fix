@@ -1,7 +1,7 @@
 repos:
   - url: git@gitlab.com:gotecq-mobile/mobile-consumer.git
     branch: main
-    dest: mobile-consumer
+    dest: mobile-consumer/_
 
   - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-form.git
     branch: main
