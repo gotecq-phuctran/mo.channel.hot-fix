@@ -27,6 +27,10 @@ repos:
     branch: main
     dest: mobile-consumer/libs/gotecq_infinite_list
 
+  - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-dependency-manager.git
+    branch: main
+    dest: mobile-consumer/libs/gotecq_dependency_manager
+
   - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-network.git
     branch: main
     dest: mobile-consumer/libs/gotecq_network
