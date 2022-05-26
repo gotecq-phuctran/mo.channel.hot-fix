@@ -1,0 +1,76 @@
+repos:
+  - url: git@gitlab.com:gotecq-mobile/mobile-consumer.git
+    branch: main
+    dest: mobile-consumer/_
+
+  - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-form.git
+    branch: main
+    dest: mobile-consumer/libs/gotecq_form
+
+  - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-widgets.git
+    branch: main
+    dest: mobile-consumer/libs/gotecq_widgets
+
+  - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-utils.git
+    branch: main
+    dest: mobile-consumer/libs/gotecq_utils
+
+  - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-foundation.git
+    branch: main
+    dest: mobile-consumer/libs/gotecq_foundation
+
+  - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-filter-n-sort.git
+    branch: main
+    dest: mobile-consumer/libs/gotecq_filter_n_sort
+
+  - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-infinite-list.git
+    branch: main
+    dest: mobile-consumer/libs/gotecq_infinite_list
+
+  - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-dependency-manager.git
+    branch: main
+    dest: mobile-consumer/libs/gotecq_dependency_manager
+
+  - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-network.git
+    branch: main
+    dest: mobile-consumer/libs/gotecq_network
+
+  - url: git@gitlab.com:gotecq-mobile/gotecq-modules/module-auth.git
+    branch: main
+    dest: mobile-consumer/modules/module_auth
+
+  - url: git@gitlab.com:gotecq-mobile/gotecq-modules/module-items.git
+    branch: main
+    dest: mobile-consumer/modules/module_items
+
+  - url: git@gitlab.com:gotecq-mobile/gotecq-modules/module-member-profile.git
+    branch: main
+    dest: mobile-consumer/modules/module_member_profile
+
+  - url: git@gitlab.com:gotecq-mobile/gotecq-modules/module-notifications.git
+    branch: main
+    dest: mobile-consumer/modules/module_notifications
+
+  - url: git@gitlab.com:gotecq-mobile/gotecq-modules/module-scheduling.git
+    branch: main
+    dest: mobile-consumer/modules/module_scheduling
+
+  - url: git@gitlab.com:gotecq-mobile/gotecq-modules/module-support.git
+    branch: main
+    dest: mobile-consumer/modules/module_support
+
+  - url: git@gitlab.com:gotecq-mobile/gotecq-modules/module-survey.git
+    branch: main
+    dest: mobile-consumer/modules/module_survey
+
+  - url: git@gitlab.com:gotecq-mobile/gotecq-modules/module-transport.git
+    branch: main
+    dest: mobile-consumer/modules/module_transport
+
+  - url: git@gitlab.com:gotecq-mobile/gotecq-apps/member-engagement-provider.git
+    branch: main
+    dest: mobile-consumer/apps/member_engagement_provider
+
+  - url: git@gitlab.com:gotecq-mobile/gotecq-apps/member-engagement-member.git
+    branch: main
+    dest: mobile-consumer/apps/member_engagement_member
