@@ -3,6 +3,10 @@ repos:
     branch: main
     dest: mobile-consumer/_
 
+  - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq_service_manager.git
+    branch: main
+    dest: mobile-consumer/libs/gotecq_service_manager
+
   - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-form.git
     branch: main
     dest: mobile-consumer/libs/gotecq_form
