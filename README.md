@@ -8,7 +8,9 @@
 
 ## Notes
 
-- To edit `manifest.yml` in `.tsrc` folder safely. We can use below command instead of `tsrc sync` to avoid sync manifest latest from gitlab.
+- To edit `manifest.yml` in `.tsrc` folder safely. We can use below command instead of `tsrc sync` to avoid sync latest manifest from gitlab.
 
-    + `cd your_dir`
+    + `cd your_dir` (It's directory where initialize tsrc)
     + `tsrc apply-manifest .tsrc/manifest/manifest.yml`
+
+- ref: [https://dmerejkowsky.github.io/tsrc/guide/manifest](https://dmerejkowsky.github.io/tsrc/guide/manifest/)
