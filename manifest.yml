@@ -15,6 +15,10 @@ repos:
     branch: main
     dest: mobile-consumer/libs/gotecq_widgets
 
+  - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-widgets-extension.git
+    branch: main
+    dest: mobile-consumer/libs/gotecq_widgets_extension
+
   - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-utils.git
     branch: main
     dest: mobile-consumer/libs/gotecq_utils
