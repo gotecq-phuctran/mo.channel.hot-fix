@@ -47,9 +47,9 @@ repos:
     branch: main
     dest: mobile-consumer/libs/gotecq_theme
 
-  - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-theme.git
+  - url: git@gitlab.com:gotecq-mobile/gotecq-libs/gotecq-query.git
     branch: main
-    dest: mobile-consumer/libs/gotecq_theme
+    dest: mobile-consumer/libs/gotecq_query
 
   - url: git@gitlab.com:gotecq-mobile/gotecq-modules/module-auth.git
     branch: main
