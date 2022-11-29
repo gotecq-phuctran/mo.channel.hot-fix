@@ -13,7 +13,7 @@
   - `cd your_dir` (It's directory where initialize tsrc)
   - `tsrc apply-manifest .tsrc/manifest/manifest.yml`
 
-- To clone with specific environment (e.g. `dev`, `staging`, `certify`, `main`). We can use script above with `--branch` with specific branch.
+- To clone with specific environment (e.g. `dev`, `beta`, `main`). We can use script above with `--branch` with specific branch.
   - E.g `tsrc init --branch main git@gitlab.com:gotecq-mobile/mobile-manifest.git`
 
 - ref: [https://dmerejkowsky.github.io/tsrc/guide/manifest](https://dmerejkowsky.github.io/tsrc/guide/manifest/)
