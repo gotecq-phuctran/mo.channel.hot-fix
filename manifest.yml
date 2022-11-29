@@ -101,7 +101,8 @@ repos:
 
 groups:
   default:
-    repos: []
+    repos:
+      - mobile-consumer/_
   apps:
     repos:
       - mobile-consumer/apps/tecq_provider
