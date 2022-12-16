@@ -98,6 +98,10 @@ repos:
   - url: git@gitlab.com:gotecq-mobile/gotecq-apps/tecq-member.git
     branch: main
     dest: mobile-consumer/apps/tecq_member
+  
+  - url: git@gitlab.com:gotecq-mobile/gotecq-localization/provider-localization.git
+    branch: main
+    dest: mobile-consumer/translate/provider_localization
 
 groups:
   default:
