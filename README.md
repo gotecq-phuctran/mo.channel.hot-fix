@@ -5,7 +5,7 @@
 - Navigate to your directory: `cd your_dir`
 - Initialize with tsrc : `tsrc init git@gitlab.com:gotecq-mobile/mobile-manifest.git  --group default apps modules libs translation`
 - Sync repos: `tsrc sync && cp -rf mobile-consumer/_/. mobile-consumer && rm -rf mobile-consumer/_`
-- Sync repos by groups: `tsrc sync --group default apps modules libs`
+- Sync repos by groups: `tsrc sync --group default apps modules libs translation`
 
 
 ## Notes
