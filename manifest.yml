@@ -139,4 +139,4 @@ groups:
       - mobile-consumer/libs/gotecq_policy
   translations:
     repos: 
-      - mobile-consumer/translation/provider_localization
+      - mobile-consumer/translations/provider_localization
