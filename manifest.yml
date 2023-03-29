@@ -21,7 +21,7 @@ repos:
 
   - url: git@github.com:gotecq/mo.lib.util.git
     branch: main
-    dest: mobile-consumer/libs/lib_utils
+    dest: mobile-consumer/libs/lib_util
 
   - url: git@github.com:gotecq/mo.lib.foundation.git
     branch: main
@@ -33,7 +33,7 @@ repos:
 
   - url: git@github.com:gotecq/mo.lib.list.git
     branch: main
-    dest: mobile-consumer/libs/lib_infinite_list
+    dest: mobile-consumer/libs/lib_list
 
   - url: git@github.com:gotecq/mo.lib.dependency-manager.git
     branch: main
@@ -182,10 +182,10 @@ groups:
       - mobile-consumer/libs/lib_form
       - mobile-consumer/libs/lib_widget
       - mobile-consumer/libs/lib_widget_extension
-      - mobile-consumer/libs/lib_utils
+      - mobile-consumer/libs/lib_util
       - mobile-consumer/libs/lib_foundation
       - mobile-consumer/libs/lib_filter_n_sort
-      - mobile-consumer/libs/lib_infinite_list
+      - mobile-consumer/libs/lib_list
       - mobile-consumer/libs/lib_dependency_manager
       - mobile-consumer/libs/lib_network
       - mobile-consumer/libs/lib_theme
