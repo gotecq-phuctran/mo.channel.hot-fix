@@ -191,7 +191,7 @@ groups:
       - mobile-consumer/modules_provider/module_contact_provider
       - mobile-consumer/modules_provider/module_profile_provider
       - mobile-consumer/modules_provider/module_notification_provider
-      - mobile-consumer/modules/module_setting_provider
+      - mobile-consumer/modules_provider/module_setting_provider
   modules_member:
     repos:
       - mobile-consumer/modules_member/module_auth_member
@@ -200,7 +200,7 @@ groups:
       - mobile-consumer/modules_member/module_contact_member
       - mobile-consumer/modules_member/module_profile_member
       - mobile-consumer/modules_member/module_notification_member
-      - mobile-consumer/modules/module_setting_member
+      - mobile-consumer/modules_member/module_setting_member
   libs:
     repos:
       - mobile-consumer/libs/lib_service_manager
